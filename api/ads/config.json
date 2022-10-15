@@ -1,7 +1,8 @@
 {
-	"status": "no",
+	"status": "yes",
 	"ads": {
 		"ad1": {
+			"duration": 10,
 			"name": "Покупайте у нас красивые хризантемы :)",
 			"description": "Всегда актуальные",
 			"image": "avatan-desktop.github.io/api/ads/images/1.jpg",
@@ -9,6 +10,7 @@
 		},
 		
 		"ad2": {
+			"duration": 10,
 			"name": "Туры по пустыне :)",
 			"description": "Жаркий активный отдых",
 			"image": "avatan-desktop.github.io/api/ads/images/2.jpg",
@@ -16,6 +18,7 @@
 		},
 		
 		"ad3": {
+			"duration": 10,
 			"name": "Декоративные медузы :)",
 			"description": "Красивые и смертоносные",
 			"image": "avatan-desktop.github.io/api/ads/images/1.jpg",
