@@ -1,0 +1,1 @@
+start live-server --browser="C:\Program Files\Google\Chrome\Application\incognito"
