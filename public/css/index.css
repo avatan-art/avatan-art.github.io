@@ -7,7 +7,7 @@ strong {font-weight: bold;}
 .block {margin: 1em auto;}
 
 .block.notification {margin-top: 0; border: 2px solid #f3a312;}
-.block.notification > span {display: block; padding: .5em; font-weight: bold; background-color: #f3a312;}
+.block.notification > h2 {display: block; padding: .5em; font-weight: bold; background-color: #f3a312;}
 .block.notification > div {padding: .5em;}
 .block.notification > div > p {line-height: 1.5em;}
 
