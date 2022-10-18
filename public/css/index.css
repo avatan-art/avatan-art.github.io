@@ -7,7 +7,7 @@ strong {font-weight: bold;}
 .block {margin: 1em auto;}
 
 .block.notification {margin-top: 0; border: 2px solid #f3a312;}
-.block.notification > h2 {display: block; padding: .5em; font-weight: bold; background-color: #f3a312;}
+.block.notification > span {display: block; padding: .5em; font-weight: bold; background-color: #f3a312;}
 .block.notification > div {padding: .5em;}
 .block.notification > div > p {line-height: 1.5em;}
 
@@ -18,13 +18,11 @@ strong {font-weight: bold;}
 .block.downloads > span {display: block; text-align: center; color: #3a3a3a; line-height: 1.5em;}
 
 .block.instructions {max-width: 600px;}
-.block.instructions > h2 {font-size: 1.5em; text-align: center;}
-.block.instructions > article {margin: .5em;}
-.block.instructions > article > p {font-size: 1em; line-height: 1.25em; padding: .25em 0; margin-top: 2em;}
-.block.instructions > article > p:first-child {margin-top: 0.5em;}
-.block.instructions > article > img {display: block; margin: 0 auto; max-width: 100%;}
+.block.instructions > h2 {font-size: 1.5em; text-align: center; margin-bottom: .5em;}
+.block.instructions > p {font-size: 1em; line-height: 1.25em; padding: .25em 0;}
+.block.instructions > img {display: block; margin: 0 auto; max-width: 100%; margin-bottom: 2em;}
 
 @media (min-width: 1200px) {
 	.block {width: 1200px; max-width: 1200px; margin: 2em auto;}
-	.block.instructions > article > img {max-width: 604px;}
+	.block.instructions > img {max-width: 604px;}
 }
