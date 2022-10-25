@@ -1,6 +1,6 @@
 {
 	"status": "yes",
-	"geo": "yes",
+	"geo": "no",
 	"server": {
 		"active": "no",
 		"protocol": "http",
