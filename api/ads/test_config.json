@@ -1,9 +1,9 @@
 {
 	"status": "yes",
-	"geo": {"status": "yes"},
+	"geo": {"status": "no"},
 	"server": {
 		"status": "yes",
-		
+
 		"protocol": "http",
 		"host": "localhost",
 		"port": "8000",
