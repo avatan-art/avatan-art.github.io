@@ -2,7 +2,7 @@
 	"status": "yes",
 	"geo": {"status": "yes"},
 	"server": {
-		"status": "no",
+		"status": "yes",
 		"protocol": "http",
 		"address": "http://localhost:8000/stats"
 	},
