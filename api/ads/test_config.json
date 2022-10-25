@@ -1,6 +1,6 @@
 {
 	"status": "yes",
-	"geo": {"status": "no"},
+	"geo": {"status": "yes"},
 	"server": {
 		"status": "no",
 		"protocol": "http",
