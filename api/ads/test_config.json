@@ -3,8 +3,11 @@
 	"geo": {"status": "yes"},
 	"server": {
 		"status": "yes",
+		
 		"protocol": "http",
-		"address": "http://localhost:8000/stats"
+		"host": "localhost",
+		"port": "8000",
+		"path": "/stats"
 	},
 	"timeout": 10
 }
