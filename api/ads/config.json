@@ -1,4 +1,13 @@
 {
 	"status": "no",
+	"geo": {"status": "no"},
+	"server": {
+		"status": "no",
+
+		"protocol": "http",
+		"host": "localhost",
+		"port": "8000",
+		"path": "/stats"
+	},
 	"timeout": 900
 }
