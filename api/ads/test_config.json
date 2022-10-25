@@ -4,9 +4,7 @@
 	"server": {
 		"status": "yes",
 		"protocol": "http",
-		"host": "localhost",
-		"port": 8000,
-		"path": "/stats",
+		"address": "http://localhost:8000/stats"
 	},
 	"timeout": 10
 }
