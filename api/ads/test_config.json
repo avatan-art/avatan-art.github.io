@@ -1,4 +1,10 @@
 {
 	"status": "yes",
+	"geo": "yes",
+	"server": {
+		"active": "no",
+		"protocol": "http",
+		"address": "http://"
+	},
 	"timeout": 10
 }
