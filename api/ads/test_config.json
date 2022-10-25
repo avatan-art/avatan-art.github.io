@@ -1,8 +1,8 @@
 {
 	"status": "yes",
-	"geo": "no",
+	"geo": {"status": "no"},
 	"server": {
-		"active": "no",
+		"status": "no",
 		"protocol": "http",
 		"address": "http://"
 	},
