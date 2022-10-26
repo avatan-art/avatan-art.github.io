@@ -1,28 +1,45 @@
 .container {width: 100%;}
 strong {font-weight: bold;}
+.hidden {display: none;}
 
-.container > header {display: flex; width: 100%; height: 50px; max-height: 50px; color: #fff; background-color: #2ea3e8;}
-.container > header > a {color: #fff; font-size: 1.5em; text-decoration: none; margin: auto;}
+.container > main {display: flex; flex-direction: column;}
 
-.block {margin: 1em auto;}
+.block {margin: 0 auto; margin-bottom: 1em;}
 
-.block.notification {margin-top: 0; border: 2px solid #f3a312;}
+.block.downloads {}
+.block.downloads > div {width: 100%; max-width: 480px; margin: 0 auto; padding: .25em;}
+.block.downloads > div.wide {max-width: 100%;}
+.block.downloads > div.wide > h1 {font-size: 1.5em; text-align: center; padding: 0 .25em;}
+.block.downloads > div.wide > p {font-size: 1em; text-align: center; padding: .25em; padding-bottom: .5em;}
+.block.downloads > div[itemprop="screenshot"] {max-width: 100%;}
+.block.downloads > div[itemprop="screenshot"] > img {max-width: 100%;}
+.block.downloads > a {transition: 200ms all ease; display: block; margin: 1em auto .25em; width: 200px; color: #fff; background-color: #2ea3e8; padding: .5em 1em; text-align: center; font-size: 1.25em; border-radius: .25em; text-decoration: none;}
+.block.downloads > a:hover {transition: 200ms all ease; background-color: #08f;}
+.block.downloads > span {display: block; text-align: center; color: #3a3a3a; line-height: 1.5em; margin-bottom: .75em;}
+
+.block.notification {order: -1; width: 100%; border: 2px solid #f3a312;}
 .block.notification > span {display: block; padding: .5em; font-weight: bold; background-color: #f3a312;}
 .block.notification > div {padding: .5em;}
 .block.notification > div > p {line-height: 1.5em;}
 
-.block.downloads {}
-.block.downloads > h1 {font-size: 1.5em; text-align: center;}
-.block.downloads > a {transition: 200ms all ease; display: block; margin: .5em auto .25em; width: 200px; color: #fff; background-color: #2ea3e8; padding: .5em 1em; text-align: center; font-size: 1.25em; border-radius: .25em; text-decoration: none;}
-.block.downloads > a:hover {transition: 200ms all ease; background-color: #08f;}
-.block.downloads > span {display: block; text-align: center; color: #3a3a3a; line-height: 1.5em;}
+.block.instructions {margin: 0 auto; margin-bottom: 1em; max-width: 600px;}
+.block.instructions > h2 {font-size: 1.5em; text-align: center; padding: 0 .25em;}
+.block.instructions > div {width: 100%; margin-top: 1em;}
+.block.instructions > div > strong {display: block; text-align: center;}
+.block.instructions > div > p {font-size: 1em; line-height: 1.25em; padding: .25em;}
+.block.instructions > div > img {display: block; max-width: 100%;}
 
-.block.instructions {max-width: 600px;}
-.block.instructions > h2 {font-size: 1.5em; text-align: center; margin-bottom: .5em;}
-.block.instructions > p {font-size: 1em; line-height: 1.25em; padding: .25em 0;}
-.block.instructions > img {display: block; margin: 0 auto; max-width: 100%; margin-bottom: 2em;}
+.container > footer {background-color: #333;}
+.container > footer > p {display: block; color: #ccc; text-align: center; padding: .5em 0;}
 
 @media (min-width: 1200px) {
-	.block {width: 1200px; max-width: 1200px; margin: 2em auto;}
-	.block.instructions > img {max-width: 604px;}
+	.block {width: 1200px; max-width: 1200px; margin-bottom: 2em;}
+	.block.downloads > div {padding: .25em 0;}
+	.block.downloads > div.wide > h1 {padding: 0;}
+	.block.downloads > div.wide > p {padding: 0; padding-bottom: .5em;}
+	.block.instructions {margin-bottom: 2em;}
+	.block.instructions > h2 {padding: 0;}
+	.block.instructions > div {margin-top: 2em;}
+	.block.instructions > div > p {padding: .25em 0;}
+
 }
