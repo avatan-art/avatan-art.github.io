@@ -6,7 +6,6 @@ strong {font-weight: bold;}
 
 .block {margin: 0 auto; margin-bottom: 1em;}
 
-.block.downloads {}
 .block.downloads > div:not(.main_image) {width: 100%; max-width: 500px; margin: 0 auto; padding: .25em;}
 .block.downloads > div.wide {max-width: 100%;}
 .block.downloads > div.wide > h1 {font-size: 1.5em; text-align: center; padding: 0 .25em;}
