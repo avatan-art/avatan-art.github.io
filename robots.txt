@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
+Disallow: /files/SetupAvatan.exe
 Sitemap: https://avatan-soft.github.io/sitemap.xml
